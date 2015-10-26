@@ -1,0 +1,124 @@
+2015-10-16T17:07:40.665295493 0.314961s notice: Recursively removing directory /home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data/tmp
+2015-10-16T17:07:40.720180623 0.369845s notice: Initializing directory /home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data
+2015-10-16T17:07:40.720437260 0.370101s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data' did not already exist or is empty.)
+2015-10-16T17:07:40.720504758 0.370168s notice: Running rethinkdb 2.1.5+2~0trusty (GCC 4.8.2)...
+2015-10-16T17:07:40.727076198 0.376742s notice: Running on Linux 3.13.0-52-generic x86_64
+2015-10-16T17:07:40.727162585 0.376826s notice: Loading data from directory /home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data
+2015-10-16T17:07:41.188187532 0.837855s info: Automatically using cache size of 679 MB
+2015-10-16T17:07:41.191241333 0.840905s notice: Listening for intracluster connections on port 29015
+2015-10-16T17:07:41.238460259 0.888123s notice: Listening for client driver connections on port 28015
+2015-10-16T17:07:41.238558207 0.888221s notice: Listening for administrative HTTP connections on port 8080
+2015-10-16T17:07:41.238559002 0.888222s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-10-16T17:07:41.238560781 0.888223s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-10-16T17:07:41.238562496 0.888225s notice: Server ready, "rohan_HP_Pavilion_dv6_Notebook_PC_m9b" cd70c730-b951-4db3-909a-75610e6476f9
+2015-10-16T17:07:59.317897392 18.967561s info: Table 83787d82-d5db-4137-863a-f96de8df3225: Added replica on this server.
+2015-10-16T17:08:01.173595648 20.823260s info: Table 83787d82-d5db-4137-863a-f96de8df3225: Starting a new Raft election for term 1.
+2015-10-16T17:08:01.234244898 20.883909s info: Table 83787d82-d5db-4137-863a-f96de8df3225: This server is Raft leader for term 1. Latest log index is 0.
+2015-10-16T17:12:17.060775021 0.056347s notice: Running rethinkdb 2.1.5+2~0trusty (GCC 4.8.2)...
+2015-10-16T17:12:17.068236138 0.063812s notice: Running on Linux 3.13.0-52-generic x86_64
+2015-10-16T17:12:17.068433906 0.064005s notice: Loading data from directory /home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data
+2015-10-16T17:12:17.169956074 0.165529s info: Automatically using cache size of 676 MB
+2015-10-16T17:12:17.170771752 0.166343s notice: Listening for intracluster connections on port 29015
+2015-10-16T17:12:17.216791431 0.212363s notice: Listening for client driver connections on port 28015
+2015-10-16T17:12:17.217243957 0.212815s notice: Listening for administrative HTTP connections on port 8080
+2015-10-16T17:12:17.217246175 0.212817s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-10-16T17:12:17.217247024 0.212818s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-10-16T17:12:17.217262195 0.212833s notice: Server ready, "rohan_HP_Pavilion_dv6_Notebook_PC_m9b" cd70c730-b951-4db3-909a-75610e6476f9
+2015-10-16T17:12:18.621394996 1.616966s info: Table 83787d82-d5db-4137-863a-f96de8df3225: Starting a new Raft election for term 2.
+2015-10-16T17:12:18.680432840 1.676004s info: Table 83787d82-d5db-4137-863a-f96de8df3225: This server is Raft leader for term 2. Latest log index is 3.
+2015-10-16T23:33:32.958429228 0.432718s notice: Running rethinkdb 2.1.5+2~0trusty (GCC 4.8.2)...
+2015-10-16T23:33:32.987469274 0.461761s notice: Running on Linux 3.13.0-52-generic x86_64
+2015-10-16T23:33:32.987645007 0.461933s notice: Loading data from directory /home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data
+2015-10-16T23:33:33.276070904 0.750360s info: Automatically using cache size of 2027 MB
+2015-10-16T23:33:33.276803593 0.751091s notice: Listening for intracluster connections on port 29015
+2015-10-16T23:33:33.475567651 0.949856s notice: Listening for client driver connections on port 28015
+2015-10-16T23:33:33.475837550 0.950126s notice: Listening for administrative HTTP connections on port 8080
+2015-10-16T23:33:33.475842721 0.950130s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-10-16T23:33:33.475843388 0.950131s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-10-16T23:33:33.475846282 0.950134s notice: Server ready, "rohan_HP_Pavilion_dv6_Notebook_PC_m9b" cd70c730-b951-4db3-909a-75610e6476f9
+2015-10-16T23:33:34.543210687 2.017500s info: Table 83787d82-d5db-4137-863a-f96de8df3225: Starting a new Raft election for term 3.
+2015-10-16T23:33:34.625275946 2.099565s info: Table 83787d82-d5db-4137-863a-f96de8df3225: This server is Raft leader for term 3. Latest log index is 6.
+2015-10-17T00:08:51.108820213 6.349468s notice: Running rethinkdb 2.1.5+2~0trusty (GCC 4.8.2)...
+2015-10-17T00:08:51.115185319 6.355837s notice: Running on Linux 3.13.0-52-generic x86_64
+2015-10-17T00:08:51.115394106 6.356041s notice: Loading data from directory /home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data
+2015-10-17T00:08:51.213055701 6.453708s info: Automatically using cache size of 1509 MB
+2015-10-17T00:08:51.215662347 6.456309s notice: Listening for intracluster connections on port 29015
+2015-10-17T00:08:51.274785575 6.515433s notice: Listening for client driver connections on port 28015
+2015-10-17T00:08:51.275020408 6.515667s notice: Listening for administrative HTTP connections on port 8080
+2015-10-17T00:08:51.275021584 6.515668s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-10-17T00:08:51.275021977 6.515668s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-10-17T00:08:51.275031533 6.515678s notice: Server ready, "rohan_HP_Pavilion_dv6_Notebook_PC_m9b" cd70c730-b951-4db3-909a-75610e6476f9
+2015-10-17T00:08:52.831520245 8.072168s info: Table 83787d82-d5db-4137-863a-f96de8df3225: Starting a new Raft election for term 4.
+2015-10-17T00:08:52.912711645 8.153359s info: Table 83787d82-d5db-4137-863a-f96de8df3225: This server is Raft leader for term 4. Latest log index is 9.
+2015-10-17T01:51:46.619831912 0.056679s notice: Running rethinkdb 2.1.5+2~0trusty (GCC 4.8.2)...
+2015-10-17T01:51:46.628436361 0.065289s notice: Running on Linux 3.13.0-52-generic x86_64
+2015-10-17T01:51:46.628670521 0.065518s notice: Loading data from directory /home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data
+2015-10-17T01:51:46.738683233 0.175532s info: Automatically using cache size of 980 MB
+2015-10-17T01:51:46.740867388 0.177714s notice: Listening for intracluster connections on port 29015
+2015-10-17T01:51:46.803793566 0.240641s notice: Listening for client driver connections on port 28015
+2015-10-17T01:51:46.804377930 0.241225s notice: Listening for administrative HTTP connections on port 8080
+2015-10-17T01:51:46.804380606 0.241227s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-10-17T01:51:46.804381473 0.241228s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-10-17T01:51:46.804399969 0.241247s notice: Server ready, "rohan_HP_Pavilion_dv6_Notebook_PC_m9b" cd70c730-b951-4db3-909a-75610e6476f9
+2015-10-17T01:51:48.002994751 1.439842s info: Table 83787d82-d5db-4137-863a-f96de8df3225: Starting a new Raft election for term 5.
+2015-10-17T01:51:48.069821560 1.506669s info: Table 83787d82-d5db-4137-863a-f96de8df3225: This server is Raft leader for term 5. Latest log index is 12.
+2015-10-17T02:39:09.930144633 2843.366993s info: Table be754830-d5f6-482f-86e5-942f1403b088: Added replica on this server.
+2015-10-17T02:39:11.811566052 2845.248414s info: Table be754830-d5f6-482f-86e5-942f1403b088: Starting a new Raft election for term 1.
+2015-10-17T02:39:11.879290469 2845.316138s info: Table be754830-d5f6-482f-86e5-942f1403b088: This server is Raft leader for term 1. Latest log index is 0.
+2015-10-18T18:26:10.839513801 0.185367s notice: Running rethinkdb 2.1.5+2~0trusty (GCC 4.8.2)...
+2015-10-18T18:26:10.875912019 0.221770s notice: Running on Linux 3.13.0-52-generic x86_64
+2015-10-18T18:26:10.876105021 0.221958s notice: Loading data from directory /home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data
+2015-10-18T18:26:11.093620916 0.439478s info: Automatically using cache size of 653 MB
+2015-10-18T18:26:11.095280392 0.441133s notice: Listening for intracluster connections on port 29015
+2015-10-18T18:26:11.418270660 0.764123s notice: Listening for client driver connections on port 28015
+2015-10-18T18:26:11.418432275 0.764285s notice: Listening for administrative HTTP connections on port 8080
+2015-10-18T18:26:11.418433504 0.764285s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-10-18T18:26:11.418440999 0.764293s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-10-18T18:26:11.418441423 0.764293s notice: Server ready, "rohan_HP_Pavilion_dv6_Notebook_PC_m9b" cd70c730-b951-4db3-909a-75610e6476f9
+2015-10-18T18:26:12.562069510 1.907923s info: Table 83787d82-d5db-4137-863a-f96de8df3225: Starting a new Raft election for term 6.
+2015-10-18T18:26:12.627369615 1.973222s info: Table 83787d82-d5db-4137-863a-f96de8df3225: This server is Raft leader for term 6. Latest log index is 15.
+2015-10-18T18:26:13.084088511 2.429942s info: Table be754830-d5f6-482f-86e5-942f1403b088: Starting a new Raft election for term 2.
+2015-10-18T18:26:13.216902509 2.562755s info: Table be754830-d5f6-482f-86e5-942f1403b088: This server is Raft leader for term 2. Latest log index is 3.
+2015-10-18T19:07:09.884857229 2459.230711s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2015-10-18T19:07:09.885079413 2459.230932s notice: Shutting down client connections...
+2015-10-18T19:07:09.892815731 2459.238669s notice: All client connections closed.
+2015-10-18T19:07:09.892836318 2459.238689s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-10-18T19:07:09.904516324 2459.250369s notice: Storage engine shut down.
+2015-10-25T16:44:25.245784368 0.124350s notice: Running rethinkdb 2.1.5+2~0trusty (GCC 4.8.2)...
+2015-10-25T16:44:25.271407440 0.149977s notice: Running on Linux 3.13.0-52-generic x86_64
+2015-10-25T16:44:25.271607413 0.150172s notice: Loading data from directory /home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data
+2015-10-25T16:44:25.626290758 0.504857s info: Automatically using cache size of 1600 MB
+2015-10-25T16:44:25.628432984 0.506998s notice: Listening for intracluster connections on port 29015
+2015-10-25T16:44:26.123405133 1.001970s notice: Listening for client driver connections on port 28015
+2015-10-25T16:44:26.123577145 1.002142s notice: Listening for administrative HTTP connections on port 8080
+2015-10-25T16:44:26.123578133 1.002143s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-10-25T16:44:26.123578461 1.002143s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-10-25T16:44:26.123578774 1.002143s notice: Server ready, "rohan_HP_Pavilion_dv6_Notebook_PC_m9b" cd70c730-b951-4db3-909a-75610e6476f9
+2015-10-25T16:44:26.931201883 1.809767s info: Table 83787d82-d5db-4137-863a-f96de8df3225: Starting a new Raft election for term 7.
+2015-10-25T16:44:26.992750409 1.871316s info: Table 83787d82-d5db-4137-863a-f96de8df3225: This server is Raft leader for term 7. Latest log index is 18.
+2015-10-25T16:44:27.634401659 2.512967s info: Table be754830-d5f6-482f-86e5-942f1403b088: Starting a new Raft election for term 3.
+2015-10-25T16:44:27.692681121 2.571247s info: Table be754830-d5f6-482f-86e5-942f1403b088: This server is Raft leader for term 3. Latest log index is 6.
+2015-10-25T16:44:32.732880115 7.611446s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2015-10-25T16:44:32.733180476 7.611746s notice: Shutting down client connections...
+2015-10-25T16:44:32.733293813 7.611859s notice: All client connections closed.
+2015-10-25T16:44:32.733298499 7.611863s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-10-25T16:44:32.764438543 7.643004s notice: Storage engine shut down.
+2015-10-25T16:46:29.659008856 0.624489s notice: Running rethinkdb 2.1.5+2~0trusty (GCC 4.8.2)...
+2015-10-25T16:46:29.666266482 0.631751s notice: Running on Linux 3.13.0-52-generic x86_64
+2015-10-25T16:46:29.666468620 0.631948s notice: Loading data from directory /home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data
+2015-10-25T16:46:29.773066134 0.738549s info: Automatically using cache size of 1571 MB
+2015-10-25T16:46:29.775099327 0.740579s notice: Listening for intracluster connections on port 29015
+2015-10-25T16:46:29.872907879 0.838387s notice: Listening for client driver connections on port 28015
+2015-10-25T16:46:29.872992449 0.838472s notice: Listening for administrative HTTP connections on port 8080
+2015-10-25T16:46:29.872996712 0.838476s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-10-25T16:46:29.872996956 0.838476s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-10-25T16:46:29.872997175 0.838476s notice: Server ready, "rohan_HP_Pavilion_dv6_Notebook_PC_m9b" cd70c730-b951-4db3-909a-75610e6476f9
+2015-10-25T16:46:30.947710023 1.913190s info: Table 83787d82-d5db-4137-863a-f96de8df3225: Starting a new Raft election for term 8.
+2015-10-25T16:46:31.026406060 1.991886s info: Table 83787d82-d5db-4137-863a-f96de8df3225: This server is Raft leader for term 8. Latest log index is 21.
+2015-10-25T16:46:31.470301406 2.435782s info: Table be754830-d5f6-482f-86e5-942f1403b088: Starting a new Raft election for term 4.
+2015-10-25T16:46:31.582150303 2.547631s info: Table be754830-d5f6-482f-86e5-942f1403b088: This server is Raft leader for term 4. Latest log index is 9.
+2015-10-25T16:46:38.810738520 9.776218s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2015-10-25T16:46:38.810825747 9.776305s notice: Shutting down client connections...
+2015-10-25T16:46:38.811044705 9.776525s notice: All client connections closed.
+2015-10-25T16:46:38.811050418 9.776530s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-10-25T16:46:38.820828118 9.786308s notice: Storage engine shut down.

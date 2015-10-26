@@ -1,0 +1,17 @@
+{
+  "name": "cloud_assignment_1",
+  "version": "0.0.1",
+  "authors": "Rohan Kulkarni,Varun Shetty",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "*",
+    "twitter": "*",
+    "socket.io": "*",
+    "underscore":"*",
+    "rethinkdb":"*",
+    "http":"*"
+  }
+}
