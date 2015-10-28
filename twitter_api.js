@@ -5,7 +5,7 @@ var config = require('./config');
 
 var connection = null;
 r.connect({
-    host: '172.31.48.27',
+    host: 'localhost',
     port: 28015
 }, function(err, conn) {
     if (err) throw err;
@@ -24,10 +24,10 @@ r.connect({
                 track: trackvar
             }, function(stream) {
                 stream.on('data', function(tweet) {
-                    if (tweet.geo != null && tweet.lang == 'en') {
+                    if (tweet.geo != null && tweet.lang == 'en'){
                         r.db('tweetDB').table('tweetStreamNew').insert(tweet).run(connection, function(err, callback) {
-                            console.log(tweet.text);
-                            console.log('Stream documents successfully inserted in RethinkDB');
+                            //console.log(tweet.text);
+                            //console.log('Stream documents successfully inserted in RethinkDB');
                         });
                     }
                 });

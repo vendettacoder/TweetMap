@@ -112,24 +112,31 @@ body {
 
 /* make container, and thus map, 100% width */
 
-.container {
+.container_native {
     width: 100%;
     height: 100%;
 }
 
-#navigator {
+
+#navigator_left {
     float: left;
-    width: 100%;
-    height: 20%;
-    background-color: #EBFFC2;
+    width: 8%;
+    height: 100%;
+    background-color: #E8E8E8;
 }
 
 #map_canvas {
     float: left;
-    width: 100%;
-    height: 80%;
-    border-style: solid;
-    border-width: medium;
+    width: 84%;
+    height: 100%;
+    box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);
+}
+
+#navigator_right {
+    float: left;
+    width: 8%;
+    height: 100%;
+    background-color: #E8E8E8;
 }
 
 #tweets {
@@ -164,6 +171,20 @@ body {
 .custom-dropdown__select--white {
     background-color: #19FFD1;
     color: #444;
+}
+
+#dropdown-holder{
+    padding-top: 10px;
+    padding-right: 10px;
+    z-index: -1;
+    position: relative;
+}
+
+#keyword{
+    width:200px;
+    height: 35px;
+    font-size: 15px;
+    font-family: verdana;
 }
 
 @supports (pointer-events: none) and ((-webkit-appearance: none) or (-moz-appearance: none) or (appearance: none)) {

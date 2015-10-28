@@ -122,3 +122,17 @@
 2015-10-25T16:46:38.811044705 9.776525s notice: All client connections closed.
 2015-10-25T16:46:38.811050418 9.776530s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2015-10-25T16:46:38.820828118 9.786308s notice: Storage engine shut down.
+2015-10-27T21:36:36.671932354 0.180270s notice: Running rethinkdb 2.1.5+2~0trusty (GCC 4.8.2)...
+2015-10-27T21:36:36.695842257 0.204185s notice: Running on Linux 3.13.0-52-generic x86_64
+2015-10-27T21:36:36.696045723 0.204383s notice: Loading data from directory /home/rohan/ROHAN/columbia_study_materials/cloud_computing/twitter_heatmap/rethinkdb_data
+2015-10-27T21:36:37.046897318 0.555236s info: Automatically using cache size of 1370 MB
+2015-10-27T21:36:37.048935989 0.557273s notice: Listening for intracluster connections on port 29015
+2015-10-27T21:36:37.471175186 0.979512s notice: Listening for client driver connections on port 28015
+2015-10-27T21:36:37.471340104 0.979677s notice: Listening for administrative HTTP connections on port 8080
+2015-10-27T21:36:37.471341150 0.979678s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-10-27T21:36:37.471341463 0.979678s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-10-27T21:36:37.471341759 0.979678s notice: Server ready, "rohan_HP_Pavilion_dv6_Notebook_PC_m9b" cd70c730-b951-4db3-909a-75610e6476f9
+2015-10-27T21:36:38.507472508 2.015810s info: Table be754830-d5f6-482f-86e5-942f1403b088: Starting a new Raft election for term 5.
+2015-10-27T21:36:38.655374522 2.163711s info: Table 83787d82-d5db-4137-863a-f96de8df3225: Starting a new Raft election for term 9.
+2015-10-27T21:36:38.662345568 2.170682s info: Table be754830-d5f6-482f-86e5-942f1403b088: This server is Raft leader for term 5. Latest log index is 12.
+2015-10-27T21:36:38.823719870 2.332058s info: Table 83787d82-d5db-4137-863a-f96de8df3225: This server is Raft leader for term 9. Latest log index is 24.
