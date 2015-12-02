@@ -2,6 +2,7 @@ var _ = require('underscore');
 var twitter = require('twitter');
 var r = require('rethinkdb');
 var config = require('./config');
+var SQS = require('./SQS.js');
 
 var connection = null;
 r.connect({
@@ -27,7 +28,7 @@ r.connect({
                     if (tweet.geo != null && tweet.lang == 'en'){
                         r.db('tweetDB').table('tweetStreamNew').insert(tweet).run(connection, function(err, callback) {
                             //console.log(tweet.text);
-                            //console.log('Stream documents successfully inserted in RethinkDB');
+                            console.log('Stream documents successfully inserted in RethinkDB');
                         });
                     }
                 });

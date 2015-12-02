@@ -33,7 +33,7 @@ function initialize() {
         // received everytime a new tweet is receieved.
         socket.on('twitter-stream', function(data) {
              //console.log(data.sentiment.type);
-             //console.log(data.text);
+             console.log(data);
             // if(data.tweet.toLowerCase().indexOf(keyword) > -1)      {
             var sentiment_type = data.sentiment;
             //Add tweet to the heat map array.
@@ -81,7 +81,7 @@ function initialize() {
 
             //Now that we are connected to the server let's tell 
             //the server we are ready to start receiving tweets.
-            //socket.emit("start tweets");
+            socket.emit("start trends");
         });
     }
 }
@@ -97,7 +97,6 @@ function filter() {
             }
             
     socket.emit("start tweets", filter);
-
 }
 
  function addDropDown(map) {
